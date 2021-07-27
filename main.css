@@ -1,13 +1,20 @@
 body {
-    background-color: rgb(160, 160, 226);
-}
-
-.pieStyles, .buttonStyles {
+    background-color: aqua;
+  }
+  
+  .pieStyles,
+  .buttonStyles {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.card, .btn {
+  }
+  
+  .btn,
+  .card {
     margin: 10px;
-}
+  }
+  
+  form {
+    margin: 20px;
+  }
+  
