@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(160, 160, 226);
+}
+
+.pieStyles, .buttonStyles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card, .btn {
+    margin: 10px;
+}
