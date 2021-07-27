@@ -83,16 +83,16 @@ const pies = [
 
   const handleButtonClick = (event) => {
     if (event.target.id === "All") {
-      console.log("The All Button");
+      pieBuilder(pies);
     }
     if (event.target.id === "Trinity") {
-      console.log("Trinity's Button");
+      pieBuilder(filterPies(pies, 'Trinity'));
     }
     if (event.target.id === "Aja") {
-      console.log("Aja's Button");
+        pieBuilder(filterPies(pies, "Aja"));
     }
     if (event.target.id === "Doc") {
-      console.log("Doc's Button");
+        pieBuilder(filterPies(pies, "Doc"));
     }
   }
 
