@@ -18,8 +18,7 @@ const pies = [
       "https://tastesbetterfromscratch.com/wp-content/uploads/2015/11/Triple_Berry_Pie8.jpg",
     instructor: "Doc",
     iceCream: "banana"
-  },
-  {
+     {
     name: "Pumpkin Pie",
     ingredients: "pumpkins, nutmeg, cinnamon, graham crackers, pilgrims",
     bakeTemp: 42,
